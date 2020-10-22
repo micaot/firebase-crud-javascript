@@ -55,14 +55,26 @@
      https://firebase.google.com/docs/web/setup#available-libraries -->
   <script src="https://www.gstatic.com/firebasejs/7.15.1/firebase-firestore.js"></script>
 
-  <script>
-    // Your web app's Firebase configuration
-    var firebaseConfig = {
-      // PUT YOUR CREDENTIALS HERE
-    };
-    // Initialize Firebase
-    firebase.initializeApp(firebaseConfig);
-  </script>
+  <!-- The core Firebase JS SDK is always required and must be listed first -->
+<script src="https://www.gstatic.com/firebasejs/7.24.0/firebase-app.js"></script>
+
+<!-- TODO: Add SDKs for Firebase products that you want to use
+     https://firebase.google.com/docs/web/setup#available-libraries -->
+
+<script>
+  // Your web app's Firebase configuration
+  var firebaseConfig = {
+    apiKey: "AIzaSyB3zYJCDuAsjCXiag89vgzxdYjPeHq4P-c",
+    authDomain: "push-ccootenval.firebaseapp.com",
+    databaseURL: "https://push-ccootenval.firebaseio.com",
+    projectId: "push-ccootenval",
+    storageBucket: "push-ccootenval.appspot.com",
+    messagingSenderId: "899311802006",
+    appId: "1:899311802006:web:f9b27bc81bcdfc1d9c94b7"
+  };
+  // Initialize Firebase
+  firebase.initializeApp(firebaseConfig);
+</script>
 
   <!-- CUSTOM CODE -->
   <script src="index.js"></script>
